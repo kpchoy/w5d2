@@ -1,0 +1,11 @@
+<!-- index html -->
+<h1>All Users</h1>
+
+<ul>
+
+<% @useres.each do |user| %>
+  <li>
+    <%= user.username %>
+  </li>
+<% end  %>
+</ul>
